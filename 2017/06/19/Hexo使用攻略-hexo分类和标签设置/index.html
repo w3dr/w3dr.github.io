@@ -8,10 +8,10 @@
   <meta name="description" content="">
   <meta name="author" content="Ww3nderer">
   <!-- Open Graph Data -->
-  <meta property="og:title" content="w3dr"/>
+  <meta property="og:title" content="Hexo使用攻略 hexo分类和标签设置"/>
   <meta property="og:description" content="w3dr" />
   <meta property="og:site_name" content="w3dr"/>
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="article" />
   <meta property="og:image" content="https://w3dr.github.ioundefined"/>
   
     <link rel="alternate" href="/atom.xml" title="w3dr" type="application/atom+xml">
@@ -43,8 +43,8 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-title with-background-image">
-          <p class="title">w3dr</p>
-          <p class="subtitle">Wandering till now</p>
+          <p class="title">Hexo使用攻略 hexo分类和标签设置</p>
+          <p class="subtitle"></p>
         </div>
         <div class="site-menu with-background-image">
           <ul>
@@ -89,92 +89,82 @@
 </header>
 
 
-<!-- Home Page Post List -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-10 col-md-10 col-md-offset-1">
-      
-        <div class="post-item-wrapper">
-  <a href="/2017/06/19/Hexo使用攻略-hexo分类和标签设置/" class="post-title">
-      Hexo使用攻略 hexo分类和标签设置
-  </a>
-  <div class="post-excerpt">
-    <!-- Post Date and Categories -->
-    <div class="date-and-category">
-      <div class="date">2017-06-19</div>
-      <div class="categories">
-        
+<article>
+  <div class="container typo">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-info text-muted">
           
+            <!-- Author -->
+            <span class="author info">By Ww3nderer</span>
+          
+          <!-- Date -->
+          <span class="date-time info">On
+            <span class="date">2017-06-19</span>
+            <span class="time">02:40:07</span>
+          </span>
+          
+          <!--  Categories  -->
+            <span class="categories info">Under 
 
 <a href="/categories/Hexo/">Hexo</a>
-
+</span>
+          
+        </div>
+        <!-- Tags -->
         
+          <div class="post-tags text-muted">
+            Tags: 
+
+<a class="tag" href="/tags/hexo/">#hexo</a>
+
+
+          </div>
+        
+        <!-- Post Main Content -->
+        <div class="post-content">
+          <p><strong>为了方便归类和查看,介绍一下hexo里分类和标签的设置.</strong></p>
+<h1 id="添加标签-tags"><a href="#添加标签-tags" class="headerlink" title="添加标签(tags)"></a>添加标签(tags)</h1><p><code>$ hexo new page tags</code><br>确认站点配置文件里有tag_dir: tags<br>确认主题配置文件里有tags: /tags<br>在编辑站点的source/tags/index.md，添加  </p>
+<pre><code>title: tags  
+date: 2015-10-20 06:49:50  
+type: &quot;tags&quot;  
+comments: false 
+</code></pre><hr>
+<p>#添加分类(categories)#</p>
+<p><code>$ hexo new page categories</code><br>确认站点配置文件里有category_dir: categories<br>确认主题配置文件里有categories: /categories<br>在编辑站点的source/categories/index.md，添加  </p>
+<pre><code>title: categories  
+date: 2015-10-20 06:49:50  
+type: &quot;categories&quot;  
+comments: false  
+</code></pre><hr>
+<h1 id="设置标签和分类种类"><a href="#设置标签和分类种类" class="headerlink" title="设置标签和分类种类"></a>设置标签和分类种类</h1><p>打开hexo根目录下的配置文件 </p>
+<blockquote>
+<p>_config.yml  </p>
+</blockquote>
+<p>找到如下位置添加上你所需的分类和标签即可</p>
+<pre><code>Category &amp; Tag
+default_category: uncategorized
+category_map:
+    编程: progrmming
+       渗透: Web
+    life: life
+    others: others
+    Hexo: hexo
+tag_map:
+    Java: Java
+    漏洞: 漏洞
+    XSS: XSS
+    SQLi: SQLi
+    心得: 心得
+    hexo: hexo
+</code></pre><hr>
+<p>编辑新文章时,根据所需填写tags和categories</p>
+
+        </div>
       </div>
     </div>
-    <!-- Post Excerpt -->
-    <div class="excerpt typo">暂无文章摘要</div>
-    <!-- Post Tags -->
-    <div class="tags">
-      
-        
-
-<a class="tag" href="/tags/hexo/">hexo</a>
-
-
-      
-    </div>
   </div>
-</div>
-
-      
-        <div class="post-item-wrapper">
-  <a href="/2017/06/19/hello-world/" class="post-title">
-      Hello World
-  </a>
-  <div class="post-excerpt">
-    <!-- Post Date and Categories -->
-    <div class="date-and-category">
-      <div class="date">2017-06-19</div>
-      <div class="categories">
-        
-          
-
-<a href="/categories/others/">others</a>
-
-        
-      </div>
-    </div>
-    <!-- Post Excerpt -->
-    <div class="excerpt typo">暂无文章摘要</div>
-    <!-- Post Tags -->
-    <div class="tags">
-      
-        
-
-<a class="tag" href="/tags/心得/">心得</a>
-
-
-      
-    </div>
-  </div>
-</div>
-
-      
-    </div>
-  </div>
-</div>
-
-<!-- Pagination -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-10 col-md-10 col-md-offset-1">
-      <ul class="pagination">
-          
-          
-      </ul>
-    </div>
-  </div>
-</div>
+</article>
 
 
 
