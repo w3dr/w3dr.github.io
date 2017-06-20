@@ -1,3 +1,4 @@
+/* theme colors */
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
@@ -180,16 +181,16 @@ th {
   padding: 0;
 }
 ::selection {
-  background: #262a30;
-  color: #fff;
+  background: #0684bd;
+  color: #e0e0e0;
 }
 body {
   position: relative;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
-  color: #555;
-  background: #fff;
+  color: #e0e0e0;
+  background: #171314;
 }
 @media (max-width: 767px) {
   body {
@@ -277,14 +278,14 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #555;
+  color: #e0e0e0;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
 }
 a:hover {
-  color: #222;
-  border-bottom-color: #222;
+  color: #e0e0e0;
+  border-bottom-color: #e0e0e0;
 }
 blockquote {
   margin: 0;
@@ -835,7 +836,7 @@ pre .javascript .function {
   display: block;
   width: 22px;
   height: 2px;
-  background: #555;
+  background: #e0e0e0;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -958,7 +959,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: transparent;
+  background: url("../images/background.jpg");
 }
 .header-inner {
   position: relative;
@@ -1473,11 +1474,11 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #555;
+  color: #e0e0e0;
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #222;
+  color: #e0e0e0;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1694,7 +1695,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #14ffff;
+  background: #22ffe9;
 }
 .links-of-blogroll {
   font-size: 13px;
