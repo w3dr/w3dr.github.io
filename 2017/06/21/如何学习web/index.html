@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Web," />
 
 
 
@@ -91,6 +91,7 @@
 
 
 <meta name="description" content="Web是什么定义早期的互联网非常的单调，一般只有静态页面，现在，随着技术的发展，web上大多数站点实际上是web应用程序，在服务器和浏览器之间进行双向的信息传递。他们支持注册登录，金融交易，搜索及用户创作的内容。用户(客户端)只需要拥有一个浏览器，就能实现各种功能。">
+<meta name="keywords" content="Web">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何学习web">
 <meta property="og:url" content="https://w3dr.github.io/2017/06/21/如何学习web/index.html">
@@ -102,7 +103,7 @@
 <meta property="og:image" content="http://i.imgur.com/rJtWW2q.jpg">
 <meta property="og:image" content="http://i.imgur.com/sN7GD1u.jpg">
 <meta property="og:image" content="http://i.imgur.com/SGAp06f.jpg">
-<meta property="og:updated_time" content="2017-06-21T12:15:05.541Z">
+<meta property="og:updated_time" content="2017-06-21T12:18:24.028Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何学习web">
 <meta name="twitter:description" content="Web是什么定义早期的互联网非常的单调，一般只有静态页面，现在，随着技术的发展，web上大多数站点实际上是web应用程序，在服务器和浏览器之间进行双向的信息传递。他们支持注册登录，金融交易，搜索及用户创作的内容。用户(客户端)只需要拥有一个浏览器，就能实现各种功能。">
@@ -390,8 +391,8 @@
 </blockquote>
 <p><img src="http://i.imgur.com/SA9pUv4.jpg" alt=""></p>
 <p>着重注意的是两点：</p>
-<h3 id="数据通道安全"><a href="#数据通道安全" class="headerlink" title="数据通道安全"></a>数据通道安全</h3><p>http协议下的网络连接是基于明文的，信息很可能被泄露和篡改，所以，数据通道安全有以下两个目标：<br>身份认证<br>数据的完整性（不被篡改或泄露）</p>
-<h3 id="浏览器安全"><a href="#浏览器安全" class="headerlink" title="浏览器安全"></a>浏览器安全</h3><p>对于数据通道，理论上https协议是安全的，能解决点到点的身份认证和安全问题，接下来会出现问题的地方只会有两个：浏览器和服务器。但是对于这两个方面永远不会出现一劳永逸的安全策略。<br>在设计安全方案时，最基本最重要的原则就是”Secure by Defalult”。一个方案的安全与否，和有没有应用这个原则有很大关系。  </p>
+<h2 id="数据通道安全"><a href="#数据通道安全" class="headerlink" title="数据通道安全"></a>数据通道安全</h2><p>http协议下的网络连接是基于明文的，信息很可能被泄露和篡改，所以，数据通道安全有以下两个目标：<br>身份认证<br>数据的完整性（不被篡改或泄露）</p>
+<h2 id="浏览器安全"><a href="#浏览器安全" class="headerlink" title="浏览器安全"></a>浏览器安全</h2><p>对于数据通道，理论上https协议是安全的，能解决点到点的身份认证和安全问题，接下来会出现问题的地方只会有两个：浏览器和服务器。但是对于这两个方面永远不会出现一劳永逸的安全策略。<br>在设计安全方案时，最基本最重要的原则就是”Secure by Defalult”。一个方案的安全与否，和有没有应用这个原则有很大关系。  </p>
 <p>1: 最小权限原则<br>最小权限原则要求系统只授予主体必要的权限，不能过度授权，以此来减少系统，网络，数据库出错的机会。<br>2: 纵深防御原则<br>包括两层含义：首先要在各个不同层面、不同方面实施安全方案，不同安全方案之间互相配合，构成整体，避免纰漏。其次是在解决根本问题的地方实施针对性的安全方案。<br>3: 数据与代码分离原则<br>这一原则广泛的适用于各种”注入”，如SQL injection，XSS，CRF injection等，简单说是从漏洞成因上看待问题。<br>4: 不可预测性原则<br>克服攻击方法的角度看问题。不可预测性，能有效的对抗基于篡改，伪造的攻击。  </p>
 <hr>
 <h1 id="http协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h1><p>HTTP协议即超文本传输协议，规定了浏览器和万维网服务器之间互相通信的规则，是万维网交换信息的基础，也是一个合格的渗透测试人员的基本功，后面复杂的内容很多都是基于对HTTP协议的分析。  </p>
@@ -450,6 +451,12 @@
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Web/" rel="tag"><i class="fa fa-tag"></i> Web</a>
+          
+        </div>
       
 
       
@@ -562,7 +569,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -597,7 +604,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#web是什么"><span class="nav-number">1.</span> <span class="nav-text">Web是什么</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#定义"><span class="nav-number">1.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#层次"><span class="nav-number">1.2.</span> <span class="nav-text">层次</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#浏览器"><span class="nav-number">1.2.1.</span> <span class="nav-text">浏览器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#http"><span class="nav-number">1.2.2.</span> <span class="nav-text">http</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#中间件"><span class="nav-number">1.2.3.</span> <span class="nav-text">中间件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#server容器"><span class="nav-number">1.2.4.</span> <span class="nav-text">Server容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据库"><span class="nav-number">1.2.5.</span> <span class="nav-text">数据库</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#应用哪些地方应用到了web"><span class="nav-number">1.3.</span> <span class="nav-text">应用（哪些地方应用到了web）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#网站"><span class="nav-number">1.3.1.</span> <span class="nav-text">网站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#手机app"><span class="nav-number">1.3.2.</span> <span class="nav-text">手机app</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#智能家居"><span class="nav-number">1.3.3.</span> <span class="nav-text">智能家居</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#web安全是什么"><span class="nav-number">2.</span> <span class="nav-text">Web安全是什么</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#数据通道安全"><span class="nav-number">2.0.1.</span> <span class="nav-text">数据通道安全</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#浏览器安全"><span class="nav-number">2.0.2.</span> <span class="nav-text">浏览器安全</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#http协议"><span class="nav-number">3.</span> <span class="nav-text">HTTP协议</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#安全观"><span class="nav-number">4.</span> <span class="nav-text">安全观</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-树立成熟的安全意识"><span class="nav-number">4.1.</span> <span class="nav-text">1、    树立成熟的安全意识</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-代码规范"><span class="nav-number">4.2.</span> <span class="nav-text">2、    代码规范:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-对安全的好奇心和热情"><span class="nav-number">4.3.</span> <span class="nav-text">3、    对安全的好奇心和热情:</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#学习资源"><span class="nav-number">5.</span> <span class="nav-text">学习资源</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#入门书籍推荐"><span class="nav-number">5.1.</span> <span class="nav-text">入门书籍推荐：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#了解web应用的各种常见漏洞"><span class="nav-number">5.2.</span> <span class="nav-text">了解web应用的各种常见漏洞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#渗透视频教程"><span class="nav-number">5.3.</span> <span class="nav-text">渗透视频教程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#漏洞复现"><span class="nav-number">5.4.</span> <span class="nav-text">漏洞复现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ctf"><span class="nav-number">5.5.</span> <span class="nav-text">CTF</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其余方面"><span class="nav-number">5.6.</span> <span class="nav-text">其余方面</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#知识的迁移性"><span class="nav-number">5.6.1.</span> <span class="nav-text">知识的迁移性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#积累资源"><span class="nav-number">5.6.2.</span> <span class="nav-text">积累资源</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#web是什么"><span class="nav-number">1.</span> <span class="nav-text">Web是什么</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#定义"><span class="nav-number">1.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#层次"><span class="nav-number">1.2.</span> <span class="nav-text">层次</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#浏览器"><span class="nav-number">1.2.1.</span> <span class="nav-text">浏览器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#http"><span class="nav-number">1.2.2.</span> <span class="nav-text">http</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#中间件"><span class="nav-number">1.2.3.</span> <span class="nav-text">中间件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#server容器"><span class="nav-number">1.2.4.</span> <span class="nav-text">Server容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据库"><span class="nav-number">1.2.5.</span> <span class="nav-text">数据库</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#应用哪些地方应用到了web"><span class="nav-number">1.3.</span> <span class="nav-text">应用（哪些地方应用到了web）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#网站"><span class="nav-number">1.3.1.</span> <span class="nav-text">网站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#手机app"><span class="nav-number">1.3.2.</span> <span class="nav-text">手机app</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#智能家居"><span class="nav-number">1.3.3.</span> <span class="nav-text">智能家居</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#web安全是什么"><span class="nav-number">2.</span> <span class="nav-text">Web安全是什么</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#数据通道安全"><span class="nav-number">2.1.</span> <span class="nav-text">数据通道安全</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#浏览器安全"><span class="nav-number">2.2.</span> <span class="nav-text">浏览器安全</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#http协议"><span class="nav-number">3.</span> <span class="nav-text">HTTP协议</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#安全观"><span class="nav-number">4.</span> <span class="nav-text">安全观</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-树立成熟的安全意识"><span class="nav-number">4.1.</span> <span class="nav-text">1、    树立成熟的安全意识</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-代码规范"><span class="nav-number">4.2.</span> <span class="nav-text">2、    代码规范:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-对安全的好奇心和热情"><span class="nav-number">4.3.</span> <span class="nav-text">3、    对安全的好奇心和热情:</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#学习资源"><span class="nav-number">5.</span> <span class="nav-text">学习资源</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#入门书籍推荐"><span class="nav-number">5.1.</span> <span class="nav-text">入门书籍推荐：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#了解web应用的各种常见漏洞"><span class="nav-number">5.2.</span> <span class="nav-text">了解web应用的各种常见漏洞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#渗透视频教程"><span class="nav-number">5.3.</span> <span class="nav-text">渗透视频教程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#漏洞复现"><span class="nav-number">5.4.</span> <span class="nav-text">漏洞复现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ctf"><span class="nav-number">5.5.</span> <span class="nav-text">CTF</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其余方面"><span class="nav-number">5.6.</span> <span class="nav-text">其余方面</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#知识的迁移性"><span class="nav-number">5.6.1.</span> <span class="nav-text">知识的迁移性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#积累资源"><span class="nav-number">5.6.2.</span> <span class="nav-text">积累资源</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
