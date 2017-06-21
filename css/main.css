@@ -279,7 +279,7 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #8deeee;
+  color: #87ceff;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
@@ -1475,7 +1475,7 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #8deeee;
+  color: #87ceff;
   border-bottom: none;
 }
 .post-nav-item a:hover {
@@ -1696,7 +1696,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #507d09;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
