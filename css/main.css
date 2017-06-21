@@ -279,13 +279,13 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #171314;
+  color: #8deeee;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
 }
 a:hover {
-  color: #222;
+  color: #fff;
   border-bottom-color: #222;
 }
 blockquote {
@@ -1080,7 +1080,7 @@ pre .javascript .function {
   transition-delay: 0s;
 }
 .menu .menu-item a:hover {
-  border-bottom-color: #171314;
+  border-bottom-color: #fff;
 }
 .menu .menu-item .fa {
   margin-right: 5px;
@@ -1475,11 +1475,11 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #171314;
+  color: #8deeee;
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #222;
+  color: #fff;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1696,7 +1696,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0eed0e;
+  background: #507d09;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1772,8 +1772,8 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: all;
-  color: #999;
-  border-bottom-color: #1999ec;
+  color: #1999ec;
+  border-bottom-color: #ccc;
 }
 .post-toc ol a:hover {
   color: #ccc;
